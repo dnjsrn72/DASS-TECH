@@ -754,8 +754,8 @@ static void MX_TIM8_Init(void)
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
  800067e:	2300      	movs	r3, #0
  8000680:	60bb      	str	r3, [r7, #8]
-  sBreakDeadTimeConfig.DeadTime = 200;
- 8000682:	23c8      	movs	r3, #200	@ 0xc8
+  sBreakDeadTimeConfig.DeadTime = 100;
+ 8000682:	2364      	movs	r3, #100	@ 0x64
  8000684:	60fb      	str	r3, [r7, #12]
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
  8000686:	2300      	movs	r3, #0
@@ -987,8 +987,8 @@ static void MX_TIM15_Init(void)
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
  80007e2:	2300      	movs	r3, #0
  80007e4:	60bb      	str	r3, [r7, #8]
-  sBreakDeadTimeConfig.DeadTime = 200;
- 80007e6:	23c8      	movs	r3, #200	@ 0xc8
+  sBreakDeadTimeConfig.DeadTime = 100;
+ 80007e6:	2364      	movs	r3, #100	@ 0x64
  80007e8:	60fb      	str	r3, [r7, #12]
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
  80007ea:	2300      	movs	r3, #0
