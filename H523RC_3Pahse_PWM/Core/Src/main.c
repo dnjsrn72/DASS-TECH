@@ -236,7 +236,6 @@ static void MX_TIM1_Init(void)
   {
     Error_Handler();
   }
-  HAL_TIMEx_EnableDeadTimePreload(&htim1);
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
@@ -330,7 +329,6 @@ static void MX_TIM8_Init(void)
   {
     Error_Handler();
   }
-  HAL_TIMEx_EnableDeadTimePreload(&htim8);
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
@@ -413,7 +411,6 @@ static void MX_TIM15_Init(void)
   {
     Error_Handler();
   }
-  HAL_TIMEx_EnableDeadTimePreload(&htim15);
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
